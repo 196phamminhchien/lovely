@@ -100,14 +100,14 @@
       width: 200px;
       height: 200px;
       margin: auto;
-      perspective: 880px;
+      perspective: 660px;
       margin-top: 110px;
     }
 
     .cover {
       width: 200px;
       height: 200px;
-      animation: flip-animate 20s linear infinite;
+      animation: flip-animate 15s linear infinite;
       /*   Làm xoay các ảnh */
       transform-style: preserve-3d;
       /*   các thành phần bên trong class cover sẽ hiển thị dưới dạng 3D */
@@ -425,7 +425,7 @@
           justify-content: center;
           margin-bottom: 5px;
           text-align: center;">
-    <audio loop id="audio" src="cuoi-cung-thi.mp3"></audio>
+    <audio loop id="audio" src="TuChoiNheNhangThoi-BichPhuongPhucDu-6281296.mp3"></audio>
     <div>
       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <div>
@@ -494,7 +494,7 @@
     function play() {
       var audio = document.getElementById("audio"); /**tried also with audio.currentTime here. Didn't worked **/
       if (!isPlay) {
-        audio.currentTime += 70;
+        audio.currentTime += 33;
         isPlay = true;
         audio.play();
       }
